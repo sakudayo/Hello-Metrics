@@ -1,0 +1,11 @@
+﻿application: metrika-api
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /static
+  static_dir: static
+  
+- url: /.*
+  script: hello_metrics.py

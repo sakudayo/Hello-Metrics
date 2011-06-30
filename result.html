@@ -1,0 +1,24 @@
+﻿<table summary="Популярное содержимое">
+    <caption>Популярное содержимое</caption>
+    <tr>
+        <th></th>
+        <th>Адрес страницы</th>
+        <th>Просмотры</th>
+        <th>Было просмотров</th>
+        <th>Входов</th>
+        <th>Выходов</th>
+        <th>Место</th>
+    </tr>
+    {% for row in data %}
+    <tr>
+        <td>{{ forloop.counter }}</td>
+        <td>{{ row.url }}</td>
+        <td>{{ row.page_views }}</td>
+        <td>{{ row.former_page_views }}</td>
+        <td>{{ row.entrances }}</td>
+        <td>{{ row.exits }}</td>
+        <td>{{ row.delta_place }}</td>
+        <td></td>
+    </tr>
+    {% endfor %}
+</table>

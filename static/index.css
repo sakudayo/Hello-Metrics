@@ -1,0 +1,41 @@
+﻿.counter {
+    margin: 25px 50px;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.ui-button {
+    font-size: 14px
+}
+#ui-datepicker-div {
+    display: none;
+    font-size: 13px
+}
+
+.date_input {
+    width: 6em;
+}
+
+#data  {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main {
+    width: 1000px;
+    margin: auto;
+}
+
+#graph {
+    height: 450px;
+}
+
+#deviation {
+    margin: auto;
+    width: 800px;
+    padding: 0px 0px 100px 0px;
+    height: 100px;
+}

@@ -1,0 +1,33 @@
+﻿<html>
+<head>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js"></script>
+<script type='text/javascript' src='https://www.google.com/jsapi'></script>
+<script type="text/javascript" src="/static/scripts.js" ></script>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/base/jquery-ui.css" type="text/css" />
+<link rel="stylesheet" href="/static/index.css" type="text/css" /> 
+</head>
+<body>
+<div id="header">
+<div id="data">
+<span>Выберите счетчик:</span>
+
+<select name="counter" id='counter'>
+    <option>Подождите</option>
+</select>
+
+<span>Период</span>
+<input type="text" name="first_date_1" id="date_1" class="date_input" />
+<input type="text" name="last_date_1" id="date_2" class="date_input" />
+
+<input type="submit" value="Сравнить с прошлым" id="submit_button" />
+</div>
+</div>
+
+<div id="main">
+<div id="graph"></div>
+<div id="deviation"></div>
+<div id="pages"></div>
+</div>
+</body>
+</html>
